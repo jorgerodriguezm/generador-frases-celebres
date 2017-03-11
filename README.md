@@ -3,7 +3,7 @@ Parte de los proyectos de dificultad intermedia en desarrollo Front End de freeC
 
 ![Generador de Frases Célebres](https://github.com/jorgerodriguezm/generador-frases-celebres/blob/master/README_images/generador_frases_celebres.png) 
 
-## JSON usado para la llamada API
+# JSON usado para la llamada API
 ```
 $("#randomquote").on("click", function() {
   $.ajaxSetup({
@@ -22,4 +22,4 @@ $("#tweet-quote").on("click", function(){
 window.open('http://twitter.com/intent/tweet?text=' + $('#text').text() + "- " + $('#author').text());
   
 });
-```
+``
